@@ -14,7 +14,7 @@ html {
 
 body {
   background: #000;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 section {
@@ -64,7 +64,6 @@ section {
 }
 
 .back-true {
-  /*.back-true*/
   background: var(--trueColor);
   transform: rotateY(-180deg);
   backface-visibility: hidden;
